@@ -1,30 +1,37 @@
 import React from "react";
+import NavBar from "./NavBar";
 
 const About = () => {
   return (
-    <div name="about" className="w-full h-screen bg-blue-900 text-white">
-      <div className="flex flex-col justify-center items-center w-full h-full">
-        <div className="max-w-screen-lg w-full grid grid-cols-2 gap-8">
-          <div className="sm:text-right pb-8 pl-4">
-            <p className="text-4xl font-bold inline border-b-4 border-pink-600">
-              About
-            </p>
-          </div>
+    <div
+      name="about"
+      className="w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white"
+    >
+      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
+        <div className="pb-8">
+          <p className="text-4xl font-bold inline border-b-4 border-gray-500">
+            About
+          </p>
         </div>
-        <div className="max-w-screen-lg w-full grid sm:grid-cols-2 gap-8 px-4">
-          <div className="sm:text-right text-4xl font-bold">
-            <p>Hi. I'm Yash, nice to meet you. Please take a look around. </p>
-          </div>
-          <div>
-            <p>
-              I am passionate about building excellent software that improves
-              the lives of those around me. I specialize in creating software
-              for clients ranging from individuals and small-businesses all the
-              way to large enterprise corporations. What would you do if you had
-              a software expert available at your fingertips?
-            </p>
-          </div>
-        </div>
+        <p className="text-xl mt-20">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
+          qui fugit numquam! Cum vitae temporibus molestiae dicta illum
+          laboriosam similique at mollitia nihil iusto repellat numquam eos illo
+          perspiciatis a unde minima commodi id cupiditate laborum iste, beatae
+          maiores. Voluptatum quisquam dignissimos tempore asperiores sit
+          ratione officiis officia alias vitae.
+        </p>
+
+        <br />
+
+        <p className="text-xl">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
+          qui fugit numquam! Cum vitae temporibus molestiae dicta illum
+          laboriosam similique at mollitia nihil iusto repellat numquam eos illo
+          perspiciatis a unde minima commodi id cupiditate laborum iste, beatae
+          maiores. Voluptatum quisquam dignissimos tempore asperiores sit
+          ratione officiis officia alias vitae.
+        </p>
       </div>
     </div>
   );
